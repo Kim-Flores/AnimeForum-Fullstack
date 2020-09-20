@@ -52,15 +52,15 @@
               <iframe width="560" height="315" src="<%= messages[i].vidUrl %>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <span class="userMsg"><%= messages[i].msg %></span>
                 <div class="icons">
-              <span class="icon"><%= messages[i].thumbUp %></span>
-              <span><i class="icon fa fa-thumbs-up" aria-hidden="true"></i></span>
-              <span><i class="icon fa fa-thumbs-down" aria-hidden="true"></i></span>
-              <span data-id='<%= messages[i]._id %>'><i class="icon fa fa-trash" aria-hidden="true"></i></span>
-            </li>
-          </div>
+                  <span class="icon"><%= messages[i].thumbUp %></span>
+                  <span><i class="icon fa fa-thumbs-up" aria-hidden="true"></i></span>
+                  <span><i class="icon fa fa-thumbs-down" aria-hidden="true"></i></span>
+                  <span data-id='<%= messages[i]._id %>'><i class="icon fa fa-trash" aria-hidden="true"></i></span>
+                </div>
+                </li>
           <% } %>
           </ul>
-  
+      </div>  
 </div>
 
 <script src="main.js"></script>

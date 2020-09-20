@@ -8,9 +8,9 @@ const trash = document.getElementsByClassName("fa-trash");
 
 Array.from(thumbUp).forEach(function(element) {
       element.addEventListener('click', function(){
-        const thumbUp = parseFloat(this.parentNode.parentNode.childNodes[7].innerText)
-        const id = this.parentNode.parentNode.childNodes[13].dataset.id
-        console.log(id,thumbUp)
+        const thumbUp = parseFloat(this.parentNode.parentNode.childNodes[1].innerText)
+        const id = this.parentNode.parentNode.childNodes[7].dataset.id
+        // console.log(id,thumbUp)
         console.log(this.parentNode.parentNode.childNodes,'childnodes')
         fetch('thumbUp', {
           method: 'put',
@@ -31,8 +31,9 @@ Array.from(thumbUp).forEach(function(element) {
 });
 Array.from(thumbDown).forEach(function(element) {
       element.addEventListener('click', function(){
-        const id = this.parentNode.parentNode.childNodes[13].dataset.id
-        const thumbUp = parseFloat(this.parentNode.parentNode.childNodes[7].innerText)
+        const thumbUp = parseFloat(this.parentNode.parentNode.childNodes[1].innerText)
+        const id = this.parentNode.parentNode.childNodes[7].dataset.id
+        console.log(this.parentNode.parentNode.childNodes,"nodes")
         fetch('thumbDown', {
           method: 'put',
           headers: {'Content-Type': 'application/json'},
@@ -53,7 +54,8 @@ Array.from(thumbDown).forEach(function(element) {
 
 Array.from(trash).forEach(function(element) {
       element.addEventListener('click', function(){
-        const id = this.parentNode.parentNode.childNodes[13].dataset.id
+        console.log(this.parentNode)
+        const id = this.parentNode.dataset.id
         console.log(id)
         fetch('messages', {
           method: 'delete',
