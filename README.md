@@ -26,8 +26,6 @@ Take a look at these couple examples that I have in my own portfolio:
 
 To-Do: https://github.com/Kim-Flores/ToDo-Express
 
-Anime Forum: https://github.com/Kim-Flores/AnimeForum-Fullstack
-
 Journal: https://github.com/Kim-Flores/Journal-Fullstack
 
 Quotes: https://github.com/Kim-Flores/Quotes-Express
