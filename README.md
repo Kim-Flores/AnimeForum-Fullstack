@@ -24,6 +24,8 @@ Learned how to incorporate iframe and regex to allow the video url to be hosted 
 
 Take a look at these couple examples that I have in my own portfolio:
 
+To-Do: https://github.com/Kim-Flores/ToDo-Express
+
 Anime Forum: https://github.com/Kim-Flores/AnimeForum-Fullstack
 
 Journal: https://github.com/Kim-Flores/Journal-Fullstack
